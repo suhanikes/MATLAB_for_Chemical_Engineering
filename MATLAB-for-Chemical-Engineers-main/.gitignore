@@ -1,0 +1,15 @@
+# Ignore MATLAB backup and temporary files
+*.asv
+*.m~  
+*.bak  
+
+# Ignore MATLAB figures and output files
+*.fig
+*.log
+*.out
+*.csv
+*.mat
+
+# Ignore hidden system files (Windows/macOS)
+.DS_Store
+Thumbs.db
