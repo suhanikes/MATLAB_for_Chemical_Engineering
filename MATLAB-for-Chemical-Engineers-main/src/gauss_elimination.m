@@ -1,4 +1,4 @@
-%A=randi([1 10], 3,3);
+
 A=[2 5 1; 4 5 6; 3 5 7];
 B=[-3 1 0]';
 n=length(B);
@@ -15,4 +15,5 @@ end
 for k=n:-1:1
     x(k)= Aug(k,n+1)-Aug(k,k+1:n)*x(k+1:n)/Aug(k,k);
 end
+
 disp(x)
